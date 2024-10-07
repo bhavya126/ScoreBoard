@@ -1,0 +1,53 @@
+@font-face {
+	font-family: "Silkscreen";
+	font-style: normal;
+	font-weight: normal;
+	src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+body{
+    text-align: center;
+    background-image: url("photo-1533923156502-be31530547c4.avif");
+    background-size: cover;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.box{
+    display: inline-block;
+    margin: 20px;
+    background-color: rgb(33, 38, 79);
+}
+
+.score{
+    background-color: black;
+    font-family: "Silkscreen";
+    font-size: 40px;
+    color: rgb(244, 63, 63);
+}
+.buttons{
+    margin: 20px;
+    color: white;
+        border-color: white;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: rgb(33, 38, 79);
+    
+    button{
+        font-family: "Silkscreen";
+        color: white;
+        border-color: white;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: rgb(33, 38, 79);
+    }
+}
+.scoreBoard{
+    padding:20px
+}
